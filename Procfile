@@ -1,1 +1,0 @@
-web: gunicorn wordcloud_app:app
