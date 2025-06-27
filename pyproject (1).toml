@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "wordcloud-app"
+version = "0.1.0"
+description = "A simple word cloud web app"
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flask = "^2.3"
+
+[tool.poetry.scripts]
+wordcloud-app = "app:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
