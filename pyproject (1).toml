@@ -12,6 +12,6 @@ flask = "^2.3"
 [tool.poetry.scripts]
 wordcloud-app = "app:main"
 
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+[build_system]
+requires = ["poetry_core"]
+build_backend = "poetry.core.masonry.api"
