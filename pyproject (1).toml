@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "wordcloud-app"
+name = "wordcloud_app"
 version = "0.1.0"
 description = "A simple word cloud web app"
 authors = ["Your Name <you@example.com>"]
